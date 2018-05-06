@@ -1,9 +1,15 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/contact-img.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  .opacity-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+  }
+  .padding-bottom {
+    margin-bottom: 32px;
+  }
   .section-heading {
     color: $white;
   }

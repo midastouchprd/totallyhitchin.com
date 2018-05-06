@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - TotallyHitchin.com v0.0.1 (https://totallyhitchin.com/about-us)
+ * Start Bootstrap - TotallyHitchin.com v0.0.2 (https://totallyhitchin.com/about-us)
  * Copyright 2013-2018 
  * Licensed under  (https://github.com/BlackrockDigital/totallyhitchin/blob/master/LICENSE)
  */
@@ -172,7 +172,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/root-bg-image.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -183,6 +183,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
+  background-color: rgba(0, 0, 0, 0.4);
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -212,14 +213,14 @@ header.masthead .intro-text .intro-heading {
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
-    margin-bottom: 50px;
+    margin-bottom: 12px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
@@ -597,10 +598,18 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/contact-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+section#contact .opacity-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px;
+}
+
+section#contact .padding-bottom {
+  margin-bottom: 32px;
 }
 
 section#contact .section-heading {
