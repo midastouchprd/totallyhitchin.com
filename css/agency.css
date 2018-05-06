@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - TotallyHitchin.com v0.0.2 (https://totallyhitchin.com/about-us)
+ * Start Bootstrap - TotallyHitchin.com v1.0.0 (https://totallyhitchin.com/about-us)
  * Copyright 2013-2018 
  * Licensed under  (https://github.com/BlackrockDigital/totallyhitchin/blob/master/LICENSE)
  */
@@ -119,7 +119,11 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #fed136;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
